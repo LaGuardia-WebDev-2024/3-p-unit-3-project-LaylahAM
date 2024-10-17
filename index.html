@@ -1,5 +1,6 @@
 <!--
 Requirements
+  Create a web page with your favorite recipes! The recipe book can have a table of contents linking to each recipe below, using internal links. Each recipe should have a table for the ingredients and a list of the steps required. If you use recipes from the internet, be sure to add a link to the website.
 [  ] Two External Links
 [  ] Table
 [  ] Three CSS Rules
@@ -14,47 +15,57 @@ Select ONE Additional Feature to Add
 
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Project: Recipe book</title>
+    <meta charset="utf-8" />
+    <style></style>
+  </head>
 
-<head>
-  <title>Project: Recipe book</title>
-  <meta charset="utf-8">
-  <style>
-  </style>
-</head>
+  <body>
+    <h1>____'s Recipe Book</h1>
 
-<body>
+    <h2>Contents:</h2>
 
-  <h1>____'s Recipe Book</h1>
+    <ol>
+      <li><a href="?">Recipe #1</a></li>
+    </ol>
 
-  <h2>Contents:</h2>
+    <h2 id="?">
+      Recipe #1
+      <ul>
+        <li>
+          <a
+            herf="https://www.allrecipes.com/recipe/23431/to-die-for-fettuccine-alfredo/"
+            >Google</a
+          >
+        </li>
+      </ul>
+    </h2>
 
-  <ol>
-    <li><a href="?">Recipe #1</a></li>
-  </ol>
-
-  <h2 id="?">Recipe #1</h2>
-
-  <ul>
-    <li>Time: _</li>
-    <li>Serves: _</li>
-  </ul>
-
-  <table>
-    <thead>
+    <ul>
+      <li>Time: 30min</li>
+      <li>Serves: 6</li>
+    </ul>
+    
+    <table>
+      <thead>
+        <tr>
+          <th>Ingredients</th>
+          <th>Quantity</th>
+        </tr>
+      </thead>
+      
+      <tbody>
       <tr>
-        <th>Ingredients</th>
-        <th>Quantity</th>
-      </tr>
-    </thead>
-    <tbody>
-    </tbody>
-  </table>
+        <td>Fettuccine</td>
+        <td class="Ingredients"> </td></tr>
+      </tbody>
+    </table>
 
-  <p><strong>Step 1:</strong> Do something.
-  </p>
+    <p><strong>Step 1:</strong> Do something.</p>
 
-  <p><em>Source: <a href="?">Some recipes websites</a></em></p>
-
-</body>
-
+    <p>
+      <em>Source: <a href="?">Some recipes websites</a></em>
+    </p>
+  </body>
 </html>
